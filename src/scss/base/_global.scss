@@ -1,0 +1,35 @@
+@use "./functions";
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	font-family: $body-font-family;
+	font-size: $body-font-size;
+	font-weight: $body-font-weight;
+	line-height: $body-line-height;
+	color: $body-text-color;
+	text-align: left;
+	background-color: $white;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+	font-family: $heading-font-family;
+	color: $heading-text-color;
+	font-weight: $font-weight-bold;
+	margin-bottom: functions.px-Rem(20);
+}
+
+a {
+	color: $primary;
+	text-decoration: none;
+}

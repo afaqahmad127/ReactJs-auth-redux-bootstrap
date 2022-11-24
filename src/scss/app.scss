@@ -1,0 +1,24 @@
+@import './main.scss';
+/* The following block can be included in a custom.scss */
+.App {
+  text-align: center;
+  min-height: 90vh;
+}
+/* import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';
+/* make the customizations */
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'danger': $danger,
+  'warning': $warning,
+  'info': $info,
+  'light': $light,
+  'dark': $dark,
+);
+
+// Progress Bar Text Color:
+.progress-bar .bg-danger .progress-bar-animated .progress-bar-striped {
+  color: black !important;
+}

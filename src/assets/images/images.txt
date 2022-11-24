@@ -1,0 +1,1 @@
+// This folder contains images only. Icons & Logos will go in their respective folders.

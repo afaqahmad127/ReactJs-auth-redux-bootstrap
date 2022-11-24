@@ -1,0 +1,9 @@
+@import '/src/scss/main.scss';
+.app-title {
+  font-size: $font-size-normal;
+}
+.app-title {
+  @media only screen and (max-width: $breakpoint_sm) {
+    font-size: 0.75rem;
+  }
+}

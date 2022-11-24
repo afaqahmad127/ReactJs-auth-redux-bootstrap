@@ -1,0 +1,9 @@
+// Transition
+@mixin ease() {
+	transition: 0.3s all ease-in-out;
+}
+
+// Shadow
+@mixin shadowLight() {
+	box-shadow: 0 0 10px 0 rgba(140, 140, 140, 0.2);
+}

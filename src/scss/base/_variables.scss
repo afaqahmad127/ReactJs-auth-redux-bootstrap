@@ -1,0 +1,61 @@
+@use './functions';
+
+// Color Defintions
+$primary: #4ec0c7;
+$secondary: #03494e;
+$dark: #20232a;
+$success: #d1e7dd;
+$danger: #f8d7da;
+$info: #cff4fc;
+$warning: #fff3cd;
+$light: #fefefe;
+$extra-light: #dfdfdf;
+$white: #ffffff;
+
+// Font weight
+$font-weight-extra-thin: 100;
+$font-weight-thin: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-ultra-bold: 900;
+
+// Font size
+$font-size-small: functions.px-Rem(14);
+$font-size-normal: functions.px-Rem(16);
+$font-size-large: functions.px-Rem(18);
+
+// Headings
+$heading-font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$heading-font-weight: $font-weight-bold;
+$heading-line-height: 1.5;
+$heading-text-color: #212529;
+
+// Body
+$body-font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$body-font-size: $font-size-normal;
+$body-font-weight: $font-weight-regular;
+$body-line-height: 1.5;
+$body-text-color: #6c757d;
+$body-text-color-light: lighten($body-text-color, 10);
+
+// Border radius
+$border-radius-sm: 5px;
+$border-radius-md: 10px;
+$border-radius-lg: 20px;
+$border-radius-round: 50%;
+
+// Box shadow
+$box-shadow: 0 5px 10px lighten($primary, 30);
+
+// Breakpoints
+$breakpoint_sm: 576px;
+$breakpoint_md: 768px;
+$breakpoint_lg: 992px;
+$breakpoint_xl: 1200px;
+$breakpoint_xl: 1400px;
