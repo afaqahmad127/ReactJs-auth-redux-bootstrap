@@ -1,12 +1,30 @@
 # Getting Started with Create React App and Redux
 
+## Important Note:
+
+To use this Project runnning without error you much need to clone my git another project of NESTJS from my git repo link is
+
+```bash
+$ https://github.com/afaqahmad127/NestJS-with-jwt-authentication/
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
+## Follow the Step to run this project
 
 In the project directory, you can run:
 
-### `npm start`
+```bash
+$ npm install
+```
+
+To install all the dependencies, run the following command
+
+and Then run
+
+```bash
+$ npm install
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
